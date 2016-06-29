@@ -1,0 +1,22 @@
+{
+  "name": "ssl-certficates",
+  "version": "0.0.1",
+  "description": "code to share public keys over the consul kv store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tfs.big-social-media.com/tfs/BIGDev2015/common/_git/ssl-certificates"
+  },
+  "keywords": [
+    "ssl"
+  ],
+  "author": "Robert Tezli (robert.tezli@big-social-media.com)",
+  "license": "MIT",
+  "dependencies": {
+    "consul": "^0.25.0",
+    "q": "^1.4.1"
+  }
+}
